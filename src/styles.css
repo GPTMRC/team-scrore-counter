@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #222;
+    color: white;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .teams-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+  }
+  
+  .team-form {
+    margin-bottom: 20px;
+  }
+  
+  .team-form input {
+    padding: 8px;
+    margin: 5px;
+  }
+  
+  .team-form button {
+    padding: 8px 15px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
